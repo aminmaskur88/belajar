@@ -133,7 +133,7 @@ Sebelum menggunakan script ini, hal yang perlu disiapkan adalah:
         # Mengambil token Authorization
         get_authorization_token()
 
-        lanjutkan = input("Apakah Anda siap melanjutkan? (Y/N): ")
+        lanjutkan = input("Apakah Anda yakin token masih berfungsi? (Y/N): ")
 
         if lanjutkan.upper() != "Y":
             print("\033[1;31mTerimakasih Sudah menggunakan script ini. Jangan lupa follow @amin_maskur88 di TikTok dan Instagram\033[0m")
